@@ -194,9 +194,10 @@ export default function WaitlistCard() {
               <Button
                 variant="outline"
                 onClick={() => setIsFlipped(true)}
-                className={`w-full ${isDarkTheme ? 'border-[#4a4a48] bg-transparent text-[#f0e4cf] hover:bg-[#3a3a38]' : 'border-[#e5d9c4] bg-transparent text-[#2d2d2b] hover:bg-[#e5d9c4]'}`}
+                className={`w-full ${isDarkTheme ? 'border-2 border-[#f0e4cf] bg-transparent text-[#f0e4cf] hover:bg-[#3a3a38]' : 'border-2 border-[#2d2d2b] bg-transparent text-[#2d2d2b] hover:bg-[#e5d9c4]'} flex items-center justify-center gap-2`}
               >
                 Features
+                <ArrowRight className="h-4 w-4" />
               </Button>
               <div className="pt-2">
                 {renderSocials()}
@@ -214,10 +215,10 @@ export default function WaitlistCard() {
               <div className="flex items-center justify-between">
                 <Badge className={`${isDarkTheme ? 'bg-[#f0e4cf] text-[#2d2d2b] hover:bg-[#e5d9c4]' : 'bg-[#2d2d2b] text-[#f0e4cf] hover:bg-[#3a3a38]'}`}>Features</Badge>
                 <Button
-                  variant="ghost"
+                  variant="outline"
                   size="sm"
                   onClick={() => setIsFlipped(false)}
-                  className={`h-8 w-8 rounded-full bg-transparent p-0 ${isDarkTheme ? 'text-[#f0e4cf] hover:bg-[#3a3a38]' : 'text-[#2d2d2b] hover:bg-[#e5d9c4]'}`}
+                  className={`h-8 w-8 rounded-full ${isDarkTheme ? 'border-2 border-[#f0e4cf] bg-transparent text-[#f0e4cf] hover:bg-[#3a3a38]' : 'border-2 border-[#2d2d2b] bg-transparent text-[#2d2d2b] hover:bg-[#e5d9c4]'}`}
                 >
                   <ArrowLeft className="h-4 w-4" />
                 </Button>
