@@ -127,7 +127,10 @@ export default function WaitlistCard() {
           >
             <CardHeader className="pb-4">
               <div className="flex items-center justify-between">
-                <Badge className={`w-fit ${isDarkTheme ? 'bg-[#f0e4cf] text-[#2d2d2b] hover:bg-[#e5d9c4]' : 'bg-[#2d2d2b] text-[#f0e4cf] hover:bg-[#3a3a38]'}`}>Premium</Badge>
+                <div className="flex items-center">
+                  <Badge className={`w-fit rounded-r-none ${isDarkTheme ? 'bg-[#f0e4cf] text-[#2d2d2b] hover:bg-[#e5d9c4]' : 'bg-[#2d2d2b] text-[#f0e4cf] hover:bg-[#3a3a38]'}`}>Premium</Badge>
+                  <Badge variant="outline" className={`w-fit rounded-l-none border-l-0 ${isDarkTheme ? 'border-[#f0e4cf] text-[#f0e4cf] hover:bg-[#3a3a38]' : 'border-[#2d2d2b] text-[#2d2d2b] hover:bg-[#e5d9c4]'}`}>LoPROMPT</Badge>
+                </div>
                 <Button
                   variant="ghost"
                   size="icon"

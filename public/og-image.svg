@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#000000"/>
+  <text x="600" y="315" font-family="Arial" font-size="72" fill="white" text-anchor="middle" dominant-baseline="middle">
+    Everything for Prompts
+  </text>
+  <text x="600" y="395" font-family="Arial" font-size="36" fill="white" text-anchor="middle" dominant-baseline="middle">
+    Join Our Waitlist
+  </text>
+  <text x="600" y="475" font-family="Arial" font-size="48" fill="#FFD700" text-anchor="middle" dominant-baseline="middle">
+    LoPROMPT
+  </text>
+</svg> 
