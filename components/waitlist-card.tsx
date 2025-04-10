@@ -158,10 +158,10 @@ export default function WaitlistCard() {
                       <div className="relative">
                         <Input
                           type="email"
-                          placeholder="Add your email here"
+                          placeholder={error || "Add your email here"}
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
-                          className={`${isDarkTheme ? 'bg-[#3a3a38] text-[#f0e4cf] placeholder-[#f0e4cf]/70 border-[#4a4a48]' : 'bg-white text-[#2d2d2b] placeholder-[#2d2d2b]/70 border-[#e5d9c4]'} pr-12 ${error ? "border-red-500" : ""}`}
+                          className={`${isDarkTheme ? 'bg-[#3a3a38] text-[#f0e4cf] placeholder-[#f0e4cf]/70 border-[#4a4a48]' : 'bg-white text-[#2d2d2b] placeholder-[#2d2d2b]/70 border-[#e5d9c4]'} pr-12 ${error ? "border-red-500 placeholder-red-400" : ""}`}
                         />
                         <Button
                           type="submit"
@@ -176,7 +176,6 @@ export default function WaitlistCard() {
                           )}
                         </Button>
                       </div>
-                      {error && <p className="text-xs sm:text-sm text-red-400 font-medium">{error}</p>}
                       <p className={`text-[10px] sm:text-xs italic mt-1 ${isDarkTheme ? 'text-[#f0e4cf]/70' : 'text-[#2d2d2b]/70'}`}>
                         *Email will be used to send you updates only
                       </p>
