@@ -2,6 +2,8 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdambrubaba%2Fgoogle-sheet-waitlist&env=GOOGLE_SERVICE_ACCOUNT_EMAIL,GOOGLE_PRIVATE_KEY,GOOGLE_SHEET_ID&envDescription=Required%20for%20Google%20Sheets%20integration.&envLink=%23how-to-get-google-credentials-detailed-steps)
 
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/damburudhar)
+
 This project is a simple waitlist signup page built with Next.js, TypeScript, and Tailwind CSS. It allows users to submit their email address, which is then stored in a Google Sheet via a server action. The UI features a flippable card design to showcase product features and includes a dark/light theme toggle.
 
 ## Tech Stack
@@ -158,3 +160,9 @@ Alternatively, follow the manual steps below:
     *   Vercel will build and deploy your application. Once finished, you'll get a unique URL for your live site.
 
 Your waitlist page is now live! Any emails submitted will be added to your configured Google Sheet.
+
+## Support the Project
+
+If you find this project helpful, consider buying me a coffee! Your support helps me maintain and improve this project.
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/damburudhar)
